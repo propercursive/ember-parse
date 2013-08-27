@@ -1,12 +1,12 @@
-Todos.Todo = DS.Model.extend({
-   title: DS.attr('string'),
-   isCompleted: DS.attr('boolean')
-});
-
-// Todos.Todo = ParseModel.extend({
+// Todos.Todo = DS.Model.extend({
 //    title: DS.attr('string'),
 //    isCompleted: DS.attr('boolean')
 // });
+
+Todos.Todo = ParseModel.extend({
+   title: DS.attr('string'),
+   isCompleted: DS.attr('boolean')
+});
 
 // Todos.Todo.FIXTURES = [
 //  {
