@@ -1,5 +1,5 @@
 Todos.Store = DS.Store.extend({
-  revision: 12,
+  revision: 11,
   adapter: ParseAdapter.create({
     applicationId: 'pm4yCvxc1eqtdLcY3aBhrzYaGMIeuEaDTafRgGUa',
     restApiId: 'QE6xUvyZO2s2HmiNdBUpFE4xviCVGp4rr8IB4cr5',
