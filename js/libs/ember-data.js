@@ -7933,4 +7933,3 @@ DS.RESTAdapter = DS.Adapter.extend({
 //SOFTWARE.
 
 })();
-
